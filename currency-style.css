@@ -1,0 +1,73 @@
+body.currency {
+    margin: 0;
+    padding: 0;
+    background-color: #eeabc4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .currency-contaner {
+    background-color: #fff;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+  }
+  
+  .currency-contaner input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 100%;
+    border-radius: .25rem;
+    display: flex;
+    box-sizing: border-box;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dropdown-container .from,
+  .to {
+    width: 40%;
+  }
+  
+  .dropdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  .dropdown img {
+    width: 30px;
+  }
+  
+  .dropdown select {
+    border: 0px;
+    outline: none;
+  }
+  
+  .msg {
+    padding: 1rem 0;
+    font-size: 0.90rem;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    background-color: #861388;
+    border: 0px;
+    padding: 0.5rem 0;
+    color: #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+  }
